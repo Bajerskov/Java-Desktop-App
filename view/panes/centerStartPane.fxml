@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="centerStartPane" prefHeight="1047.0" prefWidth="1392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="underMenuBlock1" layoutX="44.0" layoutY="400.0" prefHeight="628.0" prefWidth="300.0" spacing="10" />
+      <VBox fx:id="underMenuBlock2" layoutX="385.0" layoutY="400.0" prefHeight="628.0" prefWidth="300.0" spacing="10" />
+      <VBox fx:id="underMenuBlock3" layoutX="720.0" layoutY="400.0" prefHeight="628.0" prefWidth="300.0" spacing="10" />
+      <VBox fx:id="underMenuBlock4" layoutX="1060.0" layoutY="400.0" prefHeight="628.0" prefWidth="300.0" spacing="10" />
+      <HBox layoutX="115.0" layoutY="299.0" prefHeight="86.0" prefWidth="1170.0">
+         <children>
+            <Button fx:id="underMenuButton1" mnemonicParsing="false" prefHeight="86.0" prefWidth="277.0" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="      " />
+            <Button fx:id="underMenuButton2" mnemonicParsing="false" prefHeight="86.0" prefWidth="277.0" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="      " />
+            <Button fx:id="underMenuButton3" mnemonicParsing="false" prefHeight="86.0" prefWidth="277.0" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="      " />
+            <Button fx:id="underMenuButton4" mnemonicParsing="false" prefHeight="86.0" prefWidth="277.0" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <ImageView fx:id="foodButton" fitHeight="248.0" fitWidth="300.0" layoutX="46.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="drinkButton" fitHeight="248.0" fitWidth="300.0" layoutX="386.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="snacksButton" fitHeight="248.0" fitWidth="300.0" layoutX="720.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="otherButton" fitHeight="248.0" fitWidth="300.0" layoutX="1061.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+a1 Anders_Fejerskov 5 none 10:00 25/3/2018 Laktose_fri
+a4 Simon_Bak 3 Menu2 16:00 27/3/2018 none
+b5 Clara_Rose 6 none 12:00 26/3/2018 none
+a2 Katrine_Elefsen 3 Menu2 16:00 7/4/2018 none
+b16 Rasmus_Salling 6 none 14:00 30/3/2018 none
+a8 Nikolaj_Jacobsen 3 Menu2 12:00 2/4/2018 none
+c1 Rene_Mejer 6 Menu3 09:00 26/3/2018 none
+b10 Casper_Bartholomæos 3 none 19:00 30/3/2018 none
+a4 Boand 6 Menu1 16:00 2/4/2018 none
+a1 Test 2 none 12:00 5/1/2018 none

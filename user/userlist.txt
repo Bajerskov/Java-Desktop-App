@@ -1,0 +1,6 @@
+1 Anders
+2 Simon
+5 Clara
+6 Nikolaj
+7 Rasmus
+8 Katrine

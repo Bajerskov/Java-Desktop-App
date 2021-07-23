@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox style="-fx-background-color: #fe4b" fx:id="topMenuPane" prefHeight="34.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="38.0" prefWidth="1674.0" />
+      <MenuBar prefHeight="43.0" prefWidth="254.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Test">
+               <items>
+                  <MenuItem fx:id="setClock21" mnemonicParsing="false" text="Sæt klokken til 21" />
+                  <MenuItem fx:id="setClock8" mnemonicParsing="false" text="Sæt klokken til 8" />
+               </items>
+            </Menu>
+
+            <Menu mnemonicParsing="false" text="Indstillinger">
+               <items>
+                  <MenuItem fx:id="administerUsers" mnemonicParsing="false" text="Adminstrer Brugere" />
+                  <MenuItem fx:id="administerWares" mnemonicParsing="false" text="Adminstrer Varekartotek" />
+                  <MenuItem fx:id="printTotalReportMenu" mnemonicParsing="false" text="Udskriv Totalrapport" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</HBox>

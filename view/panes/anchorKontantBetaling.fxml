@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="kontantbetaling" prefHeight="1047.0" prefWidth="1392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="kontantSum" layoutX="584.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beløb:  DKK" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="645.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kontant" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="kontantTextField" layoutX="571.0" layoutY="393.0" prefHeight="44.0" prefWidth="189.0" promptText="Indtast ønsket beløb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text layoutX="681.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eller">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="kontantbetalsum" layoutX="573.0" layoutY="498.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="249.0" text="Betal Hele Beløbet">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="okKontantButton" layoutX="760.0" layoutY="393.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="61.0" text="OK">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
